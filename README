@@ -1,0 +1,16 @@
+Simple clock utilites for Plan 9
+
+eggclock.c: A simple eggclock. Invoke with ./8.eggclock <timeout in secs>. 
+Controls:
+Space pauses the countdown.
+'q' exits the program.
+
+The eggclock will exit with an exit string of alarm if the timeout has been reached. 
+See eggclock_example.rc how to check this.
+
+stopwatch.c: A simple stopwatch.
+Controls:
+Space stops/starts the clock.
+'q' exits the program.
+'r' resets the clock to 0:00:00 and logs the time before the reset to stdout.
+

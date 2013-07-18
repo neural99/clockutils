@@ -1,0 +1,4 @@
+#!/bin/rc
+./8.eggclock 10
+if(~ $status *alarm*) 
+	play /usr/glenda/music/bleep.mp3
